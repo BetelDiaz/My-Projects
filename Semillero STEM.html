@@ -3,25 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semillero STEM</title>
+    <title>Semillero STEM — Redirigiendo...</title>
     <style>
-        html, body {
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background-color: #000;
+            text-align: center;
         }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-            display: block;
+        .card {
+            background: #1e293b;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            max-width: 400px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            background: #8b5cf6;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        a:hover {
+            background: #7c3aed;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://semillero-stem.lovable.app"></iframe>
+    <div class="card">
+        <h2>Semillero STEM</h2>
+        <p>Haz clic en el siguiente botón para abrir el prototipo funcional con todos sus estilos:</p>
+        <a href="https://semillero-stem.lovable.app" target="_blank">Abrir Prototipo 🚀</a>
+    </div>
 </body>
 </html>
